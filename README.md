@@ -1,7 +1,8 @@
 # webext-developers-parser
 
-Смотреть на YouTube
-Смотреть на VK 
+Смотреть на YouTube https://youtu.be/u0BMWl1jtjc
+
+Смотреть на VK https://vk.com/video-226876981_456239024
 
 Промт для написания расширения для браузера:
 
