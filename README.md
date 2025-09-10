@@ -1,0 +1,1 @@
+# webext-developers-parser
