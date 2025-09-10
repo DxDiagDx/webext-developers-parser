@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "Парсер данных застройщиков",
+  "version": "1.0",
+  "permissions": [
+    "downloads"
+  ],
+  "host_permissions": [
+    "https://xn--80az8a.xn--d1aqf.xn--p1ai/*",
+    "https://наш.дом.рф/*"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Парсер застройщиков"
+  },
+  "content_security_policy": {
+    "extension_pages": "script-src 'self' 'wasm-unsafe-eval'; object-src 'self'"
+  },
+  "web_accessible_resources": [{
+    "resources": ["xlsx.full.min.js"],
+    "matches": ["<all_urls>"]
+  }]
+}
